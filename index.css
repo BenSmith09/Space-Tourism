@@ -176,6 +176,10 @@ select {
   transform: translateY(100%);
 }
 
+.hide-content {
+  display: none;
+}
+
 /* Colors */
 
 .bg-dark {
