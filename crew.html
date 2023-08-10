@@ -20,7 +20,7 @@
     />
     <title>Frontend Mentor | Space tourism website</title>
     <script src="navigation.js" defer></script>
-    <script src="tabs.js">
+    <script src="crew.js">
       defer
     </script>
   </head>
@@ -46,7 +46,7 @@
           data-visible="false"
           class="primary-navigation underline-indicators flex"
         >
-          <li class="active">
+          <li>
             <a
               class="fs-300 uppercase ff-sans-cond letter-spacing-2 text-white"
               href="index.html"
@@ -60,7 +60,7 @@
               ><span aria-hidden="true">01</span> Destination</a
             >
           </li>
-          <li>
+          <li class="active">
             <a
               class="fs-300 uppercase ff-sans-cond letter-spacing-2 text-white"
               href="crew.html"
@@ -199,7 +199,7 @@
         </p>
       </article>
 
-      <picture id="commander-image">
+      <picture id="commander-image" class="crew-image">
         <source
           srcset="assets/crew/image-douglas-hurley.webp"
           type="image/webp"
@@ -207,7 +207,7 @@
         <img src="./assets/crew/image-douglas-hurley.png" />
       </picture>
 
-      <picture id="mission-image" class="hide-content destination-image">
+      <picture id="mission-image" class="hide-content crew-image">
         <source
           srcset="assets/crew/image-mark-shuttleworth.webp"
           type="image/webp"
@@ -215,7 +215,7 @@
         <img src="./assets/crew/image-mark-shuttleworth.png" />
       </picture>
 
-      <picture id="pilot-image" class="hide-content destination-image">
+      <picture id="pilot-image" class="hide-content crew-image">
         <source
           srcset="assets/crew/image-victor-glover.webp"
           type="image/webp"
@@ -223,7 +223,7 @@
         <img src="./assets/crew/image-victor-glover.png" />
       </picture>
 
-      <picture id="crew-image" class="hide-content destination-image">
+      <picture id="crew-image" class="hide-content crew-image">
         <source
           srcset="assets/crew/image-anousheh-ansari.webp"
           type="image/webp"
